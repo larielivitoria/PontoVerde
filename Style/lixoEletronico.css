@@ -1,0 +1,326 @@
+
+body
+{
+    background-color: #F9FFF9;
+    overflow-x: hidden;
+}
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77, 77, 77);
+    cursor: default;
+}
+h1
+{
+    cursor: default;
+}
+small
+{
+    cursor: default;
+}
+
+.pJustify
+{
+    text-align: justify;
+    hyphens: auto;
+    word-break: break-word;
+}
+
+/*----------------------------------------------MENU SUSPENSO*/
+
+.menuSuperior
+{
+    background-color: #002000;
+}
+
+/*LOGO*/
+.menuSuperior img
+{
+    height: 58px;
+}
+
+
+/*ÍCONE CALCULADORA*/
+.icon-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3px;
+    transform: translateY(-2px);
+}
+.icon-container img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 !important; 
+    padding: 0 !important;
+    transition: opacity 0.4s ease-in-out;
+}
+.icon-white {
+    filter: brightness(0) invert(1);
+    opacity: 1;
+}
+.icon-green {
+    filter: invert(44%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    opacity: 0;
+}
+.nav-link:hover .icon-white {
+    opacity: 0;
+}
+
+.nav-link:hover .icon-green {
+    opacity: 1;
+}
+
+
+/*LINK SOBRE*/
+.linkMenu
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.linkMenu:hover
+{
+    color: #00cc00;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .menuSuperior img{
+        height: 80px;
+        width: 170px;
+    }
+    .menuSuperior{
+        padding: 10px;
+    }
+    .icon-container {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 3px;
+        transform: translateY(-2px);
+    }
+    .icon-container img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 !important; 
+        padding: 0 !important;
+        transition: opacity 0.4s ease-in-out;
+    }
+}
+
+@media (min-width: 1024px){
+    .menuSuperior{
+        padding: 10px 65px;
+    }
+}
+
+/*--------------------------------------------/MENU SUSPENSO*/
+
+
+/*----------------------------------------------------SLOGAN*/
+
+#h1Slogan
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.37rem;
+    margin-bottom: 20px;
+
+    color: #004F00;
+}
+
+.destaque
+{
+    color: #00cc00;
+}
+
+.imgSlogan
+{
+    border-radius: 30px;
+    border-bottom: 5px;
+
+    height: 215px;
+    width: 350px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #h1Slogan{
+        font-size: 2.6rem;
+        margin-top: 15px;
+    }
+
+    .imgSlogan{
+        border-radius: 30px;
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        height: 340px;
+        width: 600px;
+    }
+}
+
+@media (min-width: 1024px){
+    #h1Slogan{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 3.5rem;
+        margin-top: 30px;
+
+        color: #004F00;
+    }
+
+    .imgSlogan{
+        border-radius: 30px;
+
+        margin-top: 30px;
+        margin-bottom: 20px;
+
+        height: 400px;
+        width: 760px;
+    }
+}
+/*-------------------------------------------/SLOGAN*/
+
+
+/*----------------------------------CONTEXTO*/
+
+.introducao
+{
+    max-width: 340px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.imgCategorias
+{
+    width: 360px;
+    height: 260px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .introducao{
+        max-width: 610px;
+        font-size: 1.5rem;
+
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .imgCategorias{
+        width: 570px;
+        height: 470px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1024px){
+    .introducao{
+        max-width: 810px;
+        font-size: 1.8rem;
+
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .imgCategorias{
+        width: 590px;
+        height: 490px;
+        margin-bottom: 30px;
+    }
+
+}
+
+/*----------------------------------/CONTEXTO*/
+
+
+
+/*-----------------------------------RODAPÉ*/
+
+.barraInferior
+{
+    background-color: #03180F;
+    padding: 10px;
+}
+
+.logoRodape{
+    height: 50px;
+    width: 105px;
+}
+
+.textBarra
+{
+    color: rgb(152, 152, 152);
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+}
+.linhaSmall{
+    margin-top: -9px;
+}
+
+/*------------BOTÃO*/
+.btn-voltar {
+  display: inline-block;
+  background-color: #2e7d32;
+
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn-voltar:hover {
+  background-color: #1b5e20;
+}
+/*------------BOTÃO*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .barraInferior{
+        padding: 10px;
+    }
+    .logoRodape{
+        height: 80px;
+        width: 170px;
+    }
+    .btn-voltar{
+        padding: 15px 20px;
+        font-size: 1.7rem;
+    }
+    .textBarra{
+        font-size: 1.2rem;
+    }
+    .linhaSmall{
+        margin-top: -5px;
+    }
+}
+
+@media (min-width: 1024px){
+    .textBarra{
+        font-size: 0.8rem;
+    }
+    .linhaSmall{
+        margin-top: -3px;
+    }
+}
+
+/*-----------------------------------/RODAPÉ*/
