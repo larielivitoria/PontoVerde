@@ -79,3 +79,89 @@ do layout independente de conexões com CDNs externas.
 
 **RNF04 – Semântica e SEO:** O código deve ser estruturado em HTML5 semântico, priorizando a acessibilidade para leitores de tela 
 e a indexação em motores de busca.
+
+
+
+## 2 - 🧠 INTERFACE HUMANO-COMPUTADOR
+
+### 2.1 Princípios de Usabilidade
+Os princípios de usabilidade aplicados ao projeto baseiam-se nas **Heurísticas de Nielsen,** garantindo que a interface 
+seja intuitiva e eficiente para o cidadão.
+
+ **2.1.1 Visibilidade do Status do Sistema (Feedback)** <br>
+O sistema sempre informa ao usuário o que está acontecendo por meio de respostas visuais imediatas.
+
+- Ao passar o mouse sobre os cards de ecopontos ou botões, o efeito de hover (mudança de escala e cor) sinaliza 
+que o elemento é interativo. Isso evita que o usuário fique em dúvida se pode clicar ou não.
+
+
+ **2.1.2 Correspondência entre o Sistema e o Mundo Real** <br>
+A linguagem e os símbolos utilizados são familiares ao cidadão, evitando termos técnicos difíceis.
+
+- O mapa interativo utiliza a **convenção universal de geolocalização** que todos já conhecem do Google Maps.
+
+**2.1.3 Controle e Liberdade do Usuário:** <br>
+Oferecemos **"saídas de emergência"** claras para que o usuário tenha o **total controle** da navegação 
+e poder desfazer ações ou mudar de direção facilmente.
+
+- **Logotipo Interativo:** A logo do Ponto Verde na **Navbar** e no **Footer** funciona como um atalho constante para retornar à *Home*,
+servindo como uma rota de fuga rápida.
+
+- **Botões de Retorno no Rodapé:** Em páginas internas, botões estrategicamente posicionados permitem que o usuário volte ao início
+sem precisar usar as setas do navegador.
+
+- **Voltar ao Topo:** Um botão de **âncora** no rodapé da *Home* facilita a navegação, permitindo que o usuário retorne ao slogan principal instantaneamente após navegar até o fim da home.
+
+**2.1.4 Consistência e Padronização** <br>
+O site segue um padrão visual e funcional em todas as seções, evitando confusão.
+
+- A paleta de cores e a tipografia são mantidas em todas as páginas. O menu de navegação (*Navbar*) e o rodapé (*Footer*) estão sempre 
+no mesmo lugar, seguindo o padrão de sites corporativos modernos.
+
+**2.1.5 Prevenção de Erros:** <br>
+Projetamos a interface para minimizar ações involuntárias.
+
+- **Seleção em vez de Digitação:** Oferecemos **cards clicáveis** em vez de um campo de texto aberto onde poderia ocorrer
+  erros de digitação do usuário.
+
+- **Botões com Estados Claros (Hover):** Com a animação da escala e mudança de cor ao passar o mouse, evitamos
+  cliques **"no vazio"**, garantindo que o usuário saiba exatamente onde clicar.
+
+- **Links Externos:** Ao clicar no link para o mapa, garantimos que ele **abra em uma nova aba** (usando `target="_blank"`)
+  evita que o usuário **"perca"** o nosso site e tenha que fazer todo o caminho de volta. Isso previne o erro de navegação
+  acidental para **fora do fluxo** do projeto.
+
+- **Segurança dos Links Externos:** Utilizamos a combinação dos atributos `target="_blank"` com `rel="noopener noreferrer"`.
+  O uso de *noopener* impede que a página de destino tome o controle da aba do nosso site através do objeto *"window.opener"*,
+  enquanto o *noreferrer* **protege a privacidade do usuário** ao não vazar informações de origem para o servidor do mapa.
+
+**2.1.6 Flexibilidade e Eficiência de Uso (Responsividade)** <br>
+ Através do *Bootstrap*, o layout se adapta automaticamente (*Mobile-First*). Um usuário no celular consegue achar 
+ o endereço tão rápido quanto alguém no desktop, garantindo que a eficiência não dependa do dispositivo.
+
+**2.1.5 Design Estético e Minimalista** <br>
+ A interface evita informações irrelevantes que possam competir com os dados principais.
+
+Focamos no conceito de **Clean Design.** Cada seção tem um objetivo único (ou educar ou localizar), com espaçamentos 
+que permitem o **"respiro"** visual, facilitando a leitura das informações de descarte de REEE.
+
+
+
+### 2.2 Design Centrado no Usuário
+Nesta etapa, o foco total foi a **empatia.** Projetamos o site não como desenvolvedores, mas como cidadãos que enfrentam
+ a frustração de não saber o que fazer com seu lixo eletrônico.
+
+**2.2.1 Experiência do Usuário (UX):** <br>
+Através das nossas entrevistas, percebemos que o usuário se sente "perdido" na hora de descartar seus eletrônicos. 
+Por isso, o design foi pensado para **acolher:** em vez de textos complexos, usamos uma interface clara que entrega a 
+solução (o local de descarte) em poucos segundos, reduzindo a ansiedade do usuário.
+
+**2.2.2 A Inspiração (TOTVS e Avanade) como Geradora de Confiança:** <br>
+ Usamos a estética profissional dessas empresas para que o usuário sinta que está em um **ambiente seguro e oficial.**
+
+A experiência de navegação limpa, inspirada nesses players, garante que o usuário não se sinta confuso. 
+A "beleza" aqui serve à usabilidade: uma interface bonita e organizada faz o usuário se sentir capaz de realizar a tarefa.
+
+**2.2.3 Resolvendo a "Dor" do Usuário:** <br>
+O design prioriza a facilidade. Se o usuário está no celular, debaixo de sol, procurando um ecoponto, ele não quer ler sobre engenharia; ele quer um mapa que funcione. Nossa inspiração nessas empresas ajudou a criar essa hierarquia: o que é mais importante para o humano aparece primeiro.
+
