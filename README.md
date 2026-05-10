@@ -139,7 +139,7 @@ Projetamos a interface para minimizar ações involuntárias.
  Através do *Bootstrap*, o layout se adapta automaticamente (*Mobile-First*). Um usuário no celular consegue achar 
  o endereço tão rápido quanto alguém no desktop, garantindo que a eficiência não dependa do dispositivo.
 
-**2.1.5 Design Estético e Minimalista** <br>
+**2.1.7 Design Estético e Minimalista** <br>
  A interface evita informações irrelevantes que possam competir com os dados principais.
 
 Focamos no conceito de **Clean Design.** Cada seção tem um objetivo único (ou educar ou localizar), com espaçamentos 
