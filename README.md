@@ -18,7 +18,7 @@ paleta de cores e design responsivo com foco na experiência do usuário (IHC).
 
 # 📑 Documentação 
 
-## 📋 1 - ENGENHARIA DE REQUISITOS
+## 1 - 📋 ENGENHARIA DE REQUISITOS
 
 ### 🗣️ 1.1 Levantamento de Requisitos (Elicitação)
 
@@ -84,7 +84,7 @@ e a indexação em motores de busca.
 
 ## 2 - 🧠 INTERFACE HUMANO-COMPUTADOR
 
-### 2.1 Princípios de Usabilidade
+### 🏛️ 2.1 Princípios de Usabilidade
 Os princípios de usabilidade aplicados ao projeto baseiam-se nas **Heurísticas de Nielsen,** garantindo que a interface 
 seja intuitiva e eficiente para o cidadão.
 
@@ -147,7 +147,7 @@ que permitem o **"respiro"** visual, facilitando a leitura das informações de 
 
 
 
-### 2.2 Design Centrado no Usuário
+### 🤝 2.2 Design Centrado no Usuário
 Nesta etapa, o foco total foi a **empatia.** Projetamos o site não como desenvolvedores, mas como cidadãos que enfrentam
  a frustração de não saber o que fazer com seu lixo eletrônico.
 
